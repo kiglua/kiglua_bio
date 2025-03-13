@@ -20,7 +20,7 @@ $(function() {
 });
 $(function() {
   $(".typed").typed({
-      strings: ["#teampixel ", "Ukraine ", "Jesus "],
+      strings: ["#teampixel ", "Ukraine ", "Все могу в укрепляющем меня Иисусе Христе. Флп 4:13 "],
       typeSpeed: 100,
       loop: true,
       cursorChar: "|",
