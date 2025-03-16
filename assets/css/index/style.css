@@ -251,6 +251,6 @@ a.nolink {
 }
 @media (max-device-width: 1080px) { /* Замените 1080px на фактическое разрешение вашего телефона */
     body {
-        background-image: url('/assets/images/mob.jpg'); /* Фон по умолчанию для мобильных устройств */
+        background-image: url('https://github.com/kiglua/kiglua_bio/blob/main/assets/images/mob.jpg'); /* Фон по умолчанию для мобильных устройств */
     }
 }
