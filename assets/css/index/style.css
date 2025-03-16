@@ -12,6 +12,12 @@ body {
 	width: 100vw;
   height: 100vh;
 }
+body {
+    background-image: url('/assets/images/n0walls_1738.png'); /* Фон по умолчанию для компьютеров */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Добавляем эту строку */
+}
 
 .typed {
     color: var(--text-color);
@@ -242,4 +248,9 @@ a.nolink {
     color: #666;
     outline: none;
     border: none;
+}
+@media (max-device-width: 1080px) { /* Замените 1080px на фактическое разрешение вашего телефона */
+    body {
+        background-image: url('/assets/images/mob.jpg');
+    }
 }
